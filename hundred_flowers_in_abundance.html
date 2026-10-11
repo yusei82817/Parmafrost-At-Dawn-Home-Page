@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Hundred Flowers In Abundance</title>
+  <desc id="desc">Futuristic game title logo with cyan, blue, violet and magenta accents, a circular HUD emblem, and cherry blossom petals. Transparent background.</desc>
+  <defs>
+    <linearGradient id="titleFill" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".28" stop-color="#d9f8ff"/>
+      <stop offset=".55" stop-color="#69d9ff"/>
+      <stop offset=".78" stop-color="#6a72ff"/>
+      <stop offset="1" stop-color="#e6c7ff"/>
+    </linearGradient>
+    <linearGradient id="subFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".5" stop-color="#c5dfff"/>
+      <stop offset="1" stop-color="#b98cff"/>
+    </linearGradient>
+    <linearGradient id="lineFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset=".52" stop-color="#6b73ff"/>
+      <stop offset="1" stop-color="#ff64d5"/>
+    </linearGradient>
+    <linearGradient id="plateFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b45" stop-opacity=".96"/>
+      <stop offset=".5" stop-color="#071027" stop-opacity=".97"/>
+      <stop offset="1" stop-color="#261344" stop-opacity=".96"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="petal">
+      <path d="M0 0 C-20 -13 -18 -37 0 -48 C18 -35 21 -13 0 0Z" fill="#ff9cde" fill-opacity=".92" stroke="#ffd6f4" stroke-width="2"/>
+      <path d="M0 -7 Q2 -24 0 -39" fill="none" stroke="#fff0fb" stroke-width="1.6" opacity=".8"/>
+    </g>
+    <g id="tick">
+      <path d="M0 0 H54 L66 10 H12Z" fill="url(#lineFill)"/>
+      <path d="M18 18 H48" stroke="#c8f8ff" stroke-width="2" opacity=".85"/>
+    </g>
+  </defs>
+
+  <!-- Outer HUD frame -->
+  <g fill="none" stroke="url(#lineFill)" stroke-width="3" opacity=".95">
+    <path d="M72 238 H250 L282 210 H470"/>
+    <path d="M1528 238 H1350 L1318 210 H1130"/>
+    <path d="M115 390 H302 L328 412 H505"/>
+    <path d="M1485 390 H1298 L1272 412 H1095"/>
+    <path d="M510 116 H650 L676 91 H924 L950 116 H1090"/>
+    <path d="M510 504 H650 L676 529 H924 L950 504 H1090"/>
+  </g>
+  <g opacity=".95">
+    <use href="#tick" x="260" y="205"/>
+    <use href="#tick" x="1280" y="205" transform="translate(2560 0) scale(-1 1)"/>
+    <use href="#tick" x="300" y="406"/>
+    <use href="#tick" x="1240" y="406" transform="translate(2480 0) scale(-1 1)"/>
+  </g>
+
+  <!-- Broken circular insignia -->
+  <g transform="translate(800 310)" fill="none" stroke-linecap="round">
+    <circle r="224" stroke="#3c4bff" stroke-width="3" stroke-dasharray="150 25 52 25 110 40" opacity=".82"/>
+    <circle r="198" stroke="#16d8ff" stroke-width="2" stroke-dasharray="80 20 120 35 50 28" opacity=".68"/>
+    <path d="M-160 -125 A205 205 0 0 1 -35 -193 M35 -193 A205 205 0 0 1 160 -125" stroke="#8adfff" stroke-width="4"/>
+    <path d="M-160 125 A205 205 0 0 0 -35 193 M35 193 A205 205 0 0 0 160 125" stroke="#c48bff" stroke-width="4"/>
+  </g>
+  <g fill="url(#lineFill)" filter="url(#glow)">
+    <path d="M800 45 L814 83 L852 97 L814 111 L800 149 L786 111 L748 97 L786 83Z"/>
+    <path d="M800 471 L814 509 L852 523 L814 537 L800 575 L786 537 L748 523 L786 509Z"/>
+  </g>
+
+  <!-- Side fins -->
+  <path d="M45 266 L256 266 L300 246 H440 L406 270 H318 L282 291 H72Z" fill="url(#plateFill)" stroke="url(#lineFill)" stroke-width="3"/>
+  <path d="M1555 266 L1344 266 L1300 246 H1160 L1194 270 H1282 L1318 291 H1528Z" fill="url(#plateFill)" stroke="url(#lineFill)" stroke-width="3"/>
+  <path d="M85 358 L270 358 L310 378 H454 L422 356 H328 L292 337 H104Z" fill="url(#plateFill)" stroke="url(#lineFill)" stroke-width="3"/>
+  <path d="M1515 358 L1330 358 L1290 378 H1146 L1178 356 H1272 L1308 337 H1496Z" fill="url(#plateFill)" stroke="url(#lineFill)" stroke-width="3"/>
+
+  <!-- Main nameplate -->
+  <path d="M232 190 L1368 190 L1434 260 L1388 354 L1305 388 L295 388 L212 354 L166 260Z" fill="url(#plateFill)" stroke="url(#lineFill)" stroke-width="4"/>
+  <path d="M255 203 L1345 203 L1398 260 L1361 338 L1291 369 L309 369 L239 338 L202 260Z" fill="none" stroke="#9eeaff" stroke-width="1.5" opacity=".7"/>
+  <path d="M285 214 H1315 M318 355 H1282" stroke="#ffffff" stroke-width="1.5" opacity=".35"/>
+
+  <!-- Petals -->
+  <g>
+    <use href="#petal" transform="translate(330 183) rotate(-28) scale(.72)"/>
+    <use href="#petal" transform="translate(1267 185) rotate(30) scale(.72)"/>
+    <use href="#petal" transform="translate(188 325) rotate(-64) scale(.58)"/>
+    <use href="#petal" transform="translate(1412 325) rotate(65) scale(.58)"/>
+    <use href="#petal" transform="translate(545 119) rotate(-42) scale(.44)"/>
+    <use href="#petal" transform="translate(1055 118) rotate(42) scale(.44)"/>
+    <use href="#petal" transform="translate(612 493) rotate(-20) scale(.48)"/>
+    <use href="#petal" transform="translate(988 493) rotate(20) scale(.48)"/>
+  </g>
+
+  <!-- Title typography: editable text objects -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" font-style="italic" text-anchor="middle" paint-order="stroke fill">
+    <text x="800" y="286" font-size="101" letter-spacing="2.5" fill="#03091e" stroke="#03091e" stroke-width="17">Hundred Flowers</text>
+    <text x="800" y="286" font-size="101" letter-spacing="2.5" fill="url(#titleFill)" stroke="#eafaff" stroke-width="2.2">Hundred Flowers</text>
+    <text x="800" y="363" font-size="77" letter-spacing="5" fill="#03091e" stroke="#03091e" stroke-width="15">In Abundance</text>
+    <text x="800" y="363" font-size="77" letter-spacing="5" fill="url(#subFill)" stroke="#eafaff" stroke-width="2">In Abundance</text>
+  </g>
+
+  <!-- Blossom glyph in a small hexagonal badge -->
+  <g transform="translate(800 421)">
+    <path d="M-22 -12 L-11 -23 H11 L22 -12 V12 L11 23 H-11 L-22 12Z" fill="#10163b" stroke="url(#lineFill)" stroke-width="2"/>
+    <g fill="#ff9cde" stroke="#fff0fb" stroke-width="1">
+      <ellipse cy="-7" rx="4.8" ry="7.4"/>
+      <ellipse cy="7" rx="4.8" ry="7.4"/>
+      <ellipse cx="-7" rx="7.4" ry="4.8"/>
+      <ellipse cx="7" rx="7.4" ry="4.8"/>
+      <circle r="3.2" fill="#e9fbff" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- Micro details -->
+  <g fill="none" stroke="url(#lineFill)" stroke-width="2">
+    <path d="M690 152 H748 L763 167 H837 L852 152 H910"/>
+    <path d="M690 467 H748 L763 452 H837 L852 467 H910"/>
+    <path d="M482 302 H525 M1075 302 H1118"/>
+  </g>
+  <g fill="#d9faff">
+    <circle cx="464" cy="302" r="3"/><circle cx="1136" cy="302" r="3"/>
+    <circle cx="672" cy="153" r="3"/><circle cx="928" cy="153" r="3"/>
+    <circle cx="672" cy="466" r="3"/><circle cx="928" cy="466" r="3"/>
+  </g>
+</svg>
